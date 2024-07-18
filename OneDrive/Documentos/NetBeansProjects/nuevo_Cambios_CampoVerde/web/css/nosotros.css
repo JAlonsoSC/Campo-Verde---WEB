@@ -1,0 +1,133 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(img/certificacion4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.login-icon a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.5em;
+}
+/* Estilos para el contenido principal */
+.main {
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-top: 0;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-block img {
+    margin-right: 10px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.certificates img {
+    margin: 5px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #666;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #066a2b;
+}
+
+.fa-brands {
+    font-size: 24px;
+}
